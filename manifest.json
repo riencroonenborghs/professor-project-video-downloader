@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Professor Project Video Downloader",
+  "description": "Professor Project Video Downloader",
+  "version": "4.7",
+
+  "browser_action": {
+    "default_icon": "app/assets/images/app.png",
+    "default_popup": "app/views/app.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs",
+    "http://*/",
+    "contextMenus"
+  ],
+  "icons": {
+    "16": "app/assets/images/app.png"
+  }
+}

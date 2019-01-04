@@ -1,0 +1,15 @@
+<md-progress-linear md-mode="indeterminate" ng-if="busy"></md-progress-linear>
+<md-content>
+  <md-list>
+    <md-list-item class="md-2-line" ng-repeat="asset in assets">
+      <img ng-src="app/assets/images/app.png" class="md-avatar" />
+      <div class="md-list-item-text" layout="column">
+        <h3>{{asset.display_name}} ({{asset.container}})</h3>
+        <p>
+          <a href="{{asset.url}}">download video</a>
+        </p>
+      </div>
+      <md-divider></md-divider>
+    </md-list-item>
+  </md-list>
+</md-content>
