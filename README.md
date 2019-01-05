@@ -1,5 +1,7 @@
 # Professor Project Video Downloader
 
+A Chrome extension to download videos from the Professor Project website.
+
 ## Build
 
 `gulp`
